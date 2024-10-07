@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poxfy</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="bg-lightBlue">
+    <section class="h-dvh relative overflow-hidden">
+        <div class="absolute -right-1/4 -top-2/4 w-3/6 aspect-square rounded-full bg-[rgba(0,227,125,0.2)] blur-3xl"></div>
+        <div class="absolute -left-1/4 -bottom-2/4 w-3/6 aspect-square rounded-full bg-[rgba(254,94,94,0.2)] blur-3xl"></div>
+        <!-- Columns -->
+        <div class="relative flex items-center justify-center h-full py-10">
+            <div class="flex-1 flex items-center h-full border-r-2 border-lightGrey">
+                <img src="img/login.svg" alt="" width="" height="" class="block mx-auto w-[32rem]">
+            </div>
+            <div class="flex-1 flex items-center h-full flex-col">
+                <form class="flex-1 flex items-center justify-center w-[30rem] mx-auto">
+                    <div class="w-full">
+                        <h2 class="text-2xl font-medium mb-2">Sign In</h2>
+                        <p class="text-lightGrey text-md mb-4">Enter your credential to access your account.</p>
+                        <div class="relative mb-5">
+                            <input type="email" placeholder="dummy@admin.com" class="block w-full p-4 px-8 rounded-full outline-0">
+                            <svg class="absolute right-6 top-4" width="20" height="20" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M11.4998 12.5455C14.9642 12.5455 17.7726 9.73705 17.7726 6.27273C17.7726 2.80839 14.9642 0 11.4998 0C8.0355 0 5.22711 2.80839 5.22711 6.27273C5.22711 9.73705 8.0355 12.5455 11.4998 12.5455Z" fill="#F4F4F4"/>
+                                <path d="M20.4282 15.9432C17.6749 14.477 14.6182 13.6717 11.5 13.5909C8.38175 13.6717 5.32509 14.477 2.57182 15.9432C1.79969 16.3359 1.15097 16.9341 0.697178 17.672C0.243382 18.4099 0.00212553 19.2587 0 20.125V20.9091C0 21.4636 0.220292 21.9954 0.612413 22.3876C1.00453 22.7797 1.53636 23 2.09091 23H20.9091C21.4636 23 21.9955 22.7797 22.3876 22.3876C22.7797 21.9954 23 21.4636 23 20.9091V20.1459C23.0017 19.2761 22.7623 18.4228 22.3083 17.6809C21.8543 16.939 21.2035 16.3375 20.4282 15.9432Z" fill="#F4F4F4"/>
+                            </svg>
+                        </div>
+                        <div class="relative mb-5">
+                            <input type="password" placeholder="**********" class="block w-full p-4 px-8 rounded-full outline-0">
+                            <svg class="absolute right-6 top-4" width="19" height="28" viewBox="0 0 19 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.78571 5.6C6.78571 4.05576 8.00303 2.8 9.5 2.8C10.997 2.8 12.2143 4.05576 12.2143 5.6V9.8H14.9286V5.6C14.9286 2.51221 12.4933 0 9.5 0C6.50673 0 4.07143 2.51221 4.07143 5.6V9.8H6.78571V5.6ZM14.9286 11.2H4.07143C1.82631 11.2 0 13.084 0 15.4V18.2C0 23.6038 4.26161 28 9.5 28C14.7384 28 19 23.6038 19 18.2V15.4C19 13.084 17.1737 11.2 14.9286 11.2ZM10.8571 19.6C10.8571 20.3731 10.2495 21 9.5 21C8.75052 21 8.14286 20.3731 8.14286 19.6V18.2C8.14286 17.4269 8.75052 16.8 9.5 16.8C10.2495 16.8 10.8571 17.4269 10.8571 18.2V19.6Z" fill="#F4F4F4"/>
+                            </svg>                            
+                        </div>
+                        <div class="text-right">
+                            <a href="#" class="text-lightGrey inline-block">Forget your password?</a>
+                        </div>
+                        <input type="submit" value="Login" class="block cursor-pointer bg-redOrange w-full p-4 rounded-full mt-5 text-white transition ease-in-out hover:bg-ufoGreen font-medium">
+                    </div>
+                </form>
+                <ul class="flex items-center justify-center text-lightGrey">
+                    <li class="relative first:before:hidden before:absolute before:block before:w-1 before:aspect-square before:rounded-full before:bg-lightGrey before:top-3 before:-left-0.5 px-4"><a href="#">Terms of use</a></li>
+                    <li class="relative first:before:hidden before:absolute before:block before:w-1 before:aspect-square before:rounded-full before:bg-lightGrey before:top-3 before:-left-0.5 px-4"><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
